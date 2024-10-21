@@ -39,7 +39,7 @@ header {
 }
 
 .nav-item:last-child {
-  margin-right: 10px; /* Menghilangkan jarak setelah item terakhir */
+  margin-right: 10px;
 }
 
 .nav-link {
@@ -72,32 +72,101 @@ header {
   width: 100%;
 }
 
-
-
-.block-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 16px;
-  background-color: #ffffff; /* Warna latar belakang putih */
+.bagian1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 125px;
+    margin-bottom: 100px;
+}   
+  
+h1.judul {
+    font-family: 'Poppins', sans-serif;
+    color: #0d141a;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  
+p.body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(86, 88, 94);
+    font-size: 19px;
 }
 
-.block-layout {
-  display: block;
+.section-layout{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#zK2g2s h1 {
-  font-family: 'Poppins', sans-serif; /* Gaya huruf Poppins */
-  color: #0d141a;
-  font-size: 4rem; /* Ukuran font besar */
-  font-weight: 600; /* Tebal huruf medium */
-  margin-top: 125px;
+.section-header h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    color: rgb(46, 47, 50);
+    text-align: left;
+    margin-bottom: 0px;
+}
+  
+.deskripsi {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+  
+.deskripsi p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: rgb(86, 88, 94);
+    text-align: left;
+    padding: 0%;
+}
+  
+.fitur1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+  
+.fitur1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+  
+.fitur1-deskripsi {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 0;
+}
+  
+.fitur1-deskripsi h4{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+  
+.fitur2 {
+    display: flex;
+}
+  
+.fitur2 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
 }
 
-#z6F8zj p.body {
-  font-family: 'Poppins', sans-serif; /* Gaya huruf Poppins */
-  color: rgb(86, 88, 94);
-  font-size: 1.2rem;
-  font-weight: 400; /* Tebal huruf normal */
+.fitur2-deskripsi {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 0;
+}
+  
+.fitur2-deskripsi h4{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+p.deskripsi-fitur {
+    color: rgb(86, 88, 94);
 }
